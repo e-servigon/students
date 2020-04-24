@@ -26,6 +26,7 @@ def separa_generos(list_students):
 	print ("metodo vacio")
 
 def main():
+	
 	options = 1
 	list_stud = []
 
@@ -34,6 +35,8 @@ def main():
 
 		if options == "1":
 			print("crea estudiantes")
+			count_x = input("cuantos estudiantes daremos de alta: ")
+			list_stud = crea_estudiantes(count_x)
 
 		if options == "2":
 			print("ordena edades")
