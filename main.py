@@ -21,6 +21,7 @@ def crea_estudiantes(count_estudiantes):
 
 def ordena_edades(list_students):
 	print ("metodo vacio")
+	print ("aqui va un nuevo metodo")
 
 def separa_generos(list_students):
 	print ("metodo vacio")
